@@ -1,0 +1,28 @@
+{
+    "name" : "mbt/core-bundle",
+    "description" : "MBT Core bundle",
+    "type" : "library",
+    "authors" : [{
+        "name" : "MBT",
+        "homepage" : "http://www.mbt.lt"
+    }],
+    "keywords" : [
+        "mbt",
+        "core"
+    ],
+    "license" : [
+        "MBT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Mbt\\CoreBundle\\" : "src/"
+        }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+}
